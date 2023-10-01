@@ -373,7 +373,11 @@ Stack trace:
 #9 C:\laragon\www\music\public\index.php(79): CodeIgniter\CodeIgniter->run()
 #10 C:\laragon\www\music\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
 #11 {main}
+<<<<<<< HEAD
 CRITICAL - 2023-09-24 20:41:00 --> Unable to connect to the database.
+=======
+CRITICAL - 2023-09-24 20:41:00 --> Unable to connect to the database.
+>>>>>>> 1371df9142ddcf83b2842ac61da04f8e5cdbce9a
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it
 in SYSTEMPATH\Database\BaseConnection.php on line 427.
  1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
